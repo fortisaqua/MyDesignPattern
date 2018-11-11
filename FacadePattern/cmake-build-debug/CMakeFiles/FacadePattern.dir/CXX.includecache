@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanghongxuan/CLionProjects/FacadePattern/facade.h
+sub_system.h
+/Users/wanghongxuan/CLionProjects/FacadePattern/sub_system.h
+
+/Users/wanghongxuan/CLionProjects/FacadePattern/main.cpp
+iostream
+-
+facade.h
+/Users/wanghongxuan/CLionProjects/FacadePattern/facade.h
+
+/Users/wanghongxuan/CLionProjects/FacadePattern/sub_system.h
+iostream
+-
+string
+-
+unistd.h
+-
+

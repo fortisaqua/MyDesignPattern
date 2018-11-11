@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanghongxuan/CLionProjects/CompositePattern/component.h
+iostream
+-
+string
+-
+
+/Users/wanghongxuan/CLionProjects/CompositePattern/composite.h
+component.h
+/Users/wanghongxuan/CLionProjects/CompositePattern/component.h
+vector
+-
+
+/Users/wanghongxuan/CLionProjects/CompositePattern/leaf.h
+component.h
+/Users/wanghongxuan/CLionProjects/CompositePattern/component.h
+
+/Users/wanghongxuan/CLionProjects/CompositePattern/main.cpp
+iostream
+-
+composite.h
+/Users/wanghongxuan/CLionProjects/CompositePattern/composite.h
+leaf.h
+/Users/wanghongxuan/CLionProjects/CompositePattern/leaf.h
+

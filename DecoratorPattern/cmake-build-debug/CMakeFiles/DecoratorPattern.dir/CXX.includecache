@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/component.h
+string
+-
+
+.././inc/concrete_component.h
+component.h
+.././inc/component.h
+
+.././inc/concrete_decorator.h
+decorator.h
+.././inc/decorator.h
+
+.././inc/decorator.h
+component.h
+.././inc/component.h
+
+/Users/wanghongxuan/CLionProjects/DecoratorPattern/main.cpp
+iostream
+-
+concrete_component.h
+/Users/wanghongxuan/CLionProjects/DecoratorPattern/concrete_component.h
+concrete_decorator.h
+/Users/wanghongxuan/CLionProjects/DecoratorPattern/concrete_decorator.h
+iostream
+-
+
